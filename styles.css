@@ -1,0 +1,85 @@
+.wrapper {
+    background-color: white;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.row {
+  display: grid;
+  grid-template-rows: table-row;
+  grid-template-columns: repeat(10, 1fr);
+}
+
+.container1 {
+  background-color: pink;
+  padding: 2px 16px;
+  border: solid 1px;
+  width: 50%;
+  border-width: 4px 4px;
+  float: left;
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+  shape-outside: cone();
+  clip-path: cone();
+ 
+}
+
+.container2 {
+  background-color: bisque;
+  padding: 2px 16px;
+  border: solid 1px;
+  width: 50%;
+  border-width: 4px 4px;
+  float: left;
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+  shape-outside: circle();
+  clip-path: circle();
+ 
+}
+
+.container3 {
+  background-color: rgb(0, 153, 255);
+  padding: 2px 16px;
+  border: solid 1px;
+  width: 50%;
+  border-width: 4px 4px;
+  float: left;
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+  shape-outside: circle();
+  clip-path: circle();
+  background: lightblue;
+}
+
+.container4 {
+  background-color: pink;
+  padding: 2px 16px;
+  border: solid 1px;
+  width: 50%;
+  border-width: 4px 4px;
+  float: left;
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+  shape-outside: circle();
+  clip-path: circle();
+  background: lightblue;
+}
+
+.container5 {
+  background-color: rgb(0, 204, 255);
+  padding: 2px 16px;
+  border: solid 1px;
+  width: 50%;
+  border-width: 4px 4px;
+  float: left;
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+  
+  
+}
